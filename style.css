@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.inline-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* addressMarker {
+    z-index: 1000;
+} */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addressInput {
+    width: 150%;
+    padding: 5px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 5px 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#map {
+    height: 400px;
+    margin-top: 20px;
+    /* border: 1px solid lightgrey; */
+}
+
+#history {
+    margin-top: 20px;
+}
+
+#historyList {
+    list-style: none;
+    padding: 0;
+}

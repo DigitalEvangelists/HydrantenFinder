@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Application</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="inline-container">
+        <img src="logo-ff-poeseldorf.png" alt="Logo der Freiwilligen Feuerwehr Hamburg-Pöseldorf" width="150" height="150" />
+        <h1>F-1938 Map Application</h1>
+        <input type="text" id="addressInput" placeholder="Enter an address">
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="map"></div>
+    <div id="history">
+        <h2>Search History</h2>
+        <ul id="historyList"></ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
